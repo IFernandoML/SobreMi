@@ -11,7 +11,10 @@ import SwiftUI
 struct SobreMiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack{
+                Start()
+            }
         }
     }
 }
+    

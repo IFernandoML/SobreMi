@@ -11,6 +11,11 @@
 		186F4A772B69741B007055D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F4A762B69741B007055D4 /* ContentView.swift */; };
 		186F4A792B69741C007055D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186F4A782B69741C007055D4 /* Assets.xcassets */; };
 		186F4A7C2B69741C007055D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186F4A7B2B69741C007055D4 /* Preview Assets.xcassets */; };
+		186F4A832B6976F6007055D4 /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F4A822B6976F6007055D4 /* Start.swift */; };
+		186F4A872B697A11007055D4 /* Ikell.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 186F4A862B697A11007055D4 /* Ikell.jpeg */; };
+		186F4A892B697DEE007055D4 /* MyInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F4A882B697DEE007055D4 /* MyInformation.swift */; };
+		186F4A8B2B697E1F007055D4 /* Hobbies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F4A8A2B697E1F007055D4 /* Hobbies.swift */; };
+		186F4A8D2B697E27007055D4 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F4A8C2B697E27007055D4 /* Notes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		186F4A762B69741B007055D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		186F4A782B69741C007055D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186F4A7B2B69741C007055D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		186F4A822B6976F6007055D4 /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
+		186F4A862B697A11007055D4 /* Ikell.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ikell.jpeg; path = ../../../../../Downloads/Ikell.jpeg; sourceTree = "<group>"; };
+		186F4A882B697DEE007055D4 /* MyInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInformation.swift; sourceTree = "<group>"; };
+		186F4A8A2B697E1F007055D4 /* Hobbies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hobbies.swift; sourceTree = "<group>"; };
+		186F4A8C2B697E27007055D4 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,10 @@
 			children = (
 				186F4A742B69741B007055D4 /* SobreMiApp.swift */,
 				186F4A762B69741B007055D4 /* ContentView.swift */,
+				186F4A8A2B697E1F007055D4 /* Hobbies.swift */,
+				186F4A8C2B697E27007055D4 /* Notes.swift */,
+				186F4A882B697DEE007055D4 /* MyInformation.swift */,
+				186F4A822B6976F6007055D4 /* Start.swift */,
 				186F4A782B69741C007055D4 /* Assets.xcassets */,
 				186F4A7A2B69741C007055D4 /* Preview Content */,
 			);
@@ -63,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				186F4A7B2B69741C007055D4 /* Preview Assets.xcassets */,
+				186F4A862B697A11007055D4 /* Ikell.jpeg */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				186F4A7C2B69741C007055D4 /* Preview Assets.xcassets in Resources */,
+				186F4A872B697A11007055D4 /* Ikell.jpeg in Resources */,
 				186F4A792B69741C007055D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186F4A8B2B697E1F007055D4 /* Hobbies.swift in Sources */,
 				186F4A772B69741B007055D4 /* ContentView.swift in Sources */,
+				186F4A832B6976F6007055D4 /* Start.swift in Sources */,
+				186F4A892B697DEE007055D4 /* MyInformation.swift in Sources */,
 				186F4A752B69741B007055D4 /* SobreMiApp.swift in Sources */,
+				186F4A8D2B697E27007055D4 /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
