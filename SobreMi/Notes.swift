@@ -9,7 +9,9 @@ import SwiftUI
 
 struct Notes: View {
     var body: some View {
-        Text("hello 2")
+        VStack {
+            Text("notas o ideas rapidas")
+        }
     }
 }
 

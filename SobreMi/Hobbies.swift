@@ -6,10 +6,13 @@
 //
 
 import SwiftUI
+import CoreMotion
 
 struct Hobbies: View {
     var body: some View {
-        Text("hello 3")
+        VStack {
+            Text("presiona")
+        }
     }
 }
 
