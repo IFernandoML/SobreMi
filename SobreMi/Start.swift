@@ -10,7 +10,7 @@ import SwiftUI
 struct Start: View {
     var body: some View {
         ZStack {
-                   Color.teal
+                   Color.cyan
                 .ignoresSafeArea()
                    VStack (){
                        Spacer()
@@ -20,7 +20,7 @@ struct Start: View {
                            .fontDesign(.rounded)
                            .shadow(color: .red, radius: 8)
                        
-                       Image("Ikell")
+                       Image("MeInCode")
                            .resizable()
                            .scaledToFit()
                            .clipShape(Circle())
